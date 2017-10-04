@@ -19,6 +19,11 @@ var favoriteNumber = prompt('What is your favorite number? Think carefully.... t
 	}
 
 // Declare a function that takes a name as an argument and tells the user what name they've entered. Try running it after it has been declared.
+function typeYourNameHere(name) {
+	alert('You said your name is ' + name + '. Sorry ' + name + '. Your name is Stacy now. Be free Stacy. Be free.');
+}
+typeYourNameHere('Casey');
+
 // Declare a function that takes no arguments but prints "I am a great function" to the console. Try running it after it has been declared.
 // Declare a function that lets you choose which door to open of 3 doors (like the TV game show). Behind one of the doors is a goat, behind another 
 // 		is a Jeep, and behind another is a can of worms. Alert the user which prize they got when a door number is passed in.

@@ -3,8 +3,11 @@ var cat = 3;
 var dog = 4;
 console.log(cat + dog);
 
-
 // Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
+
+var cheese_platter = [["Manchego", "La Tur", "Parmigiano Reggiano"], ["Membrillo", "Fruit Compote", "Honeycomb"]]
+console.log('If you want a delightful cheese platter, I recommend pairing ' + cheese_platter[0][0] + ' and ' + cheese_platter[1][0] + ".");
+
 // Write a script that checks if a variable captured from a js prompt is less than 100. If it is, alert the user that their variable is less than 100. If it is not alert the user of what the value was and that it was greater than 100.
 // Declare a function that takes a name as an argument and tells the user what name they've entered. Try running it after it has been declared.
 // Declare a function that takes no arguments but prints "I am a great function" to the console. Try running it after it has been declared.

@@ -25,9 +25,29 @@ function typeYourNameHere(name) {
 typeYourNameHere('Casey');
 
 // Declare a function that takes no arguments but prints "I am a great function" to the console. Try running it after it has been declared.
+function validation() {
+	console.log('I am a great function');
+}
+
+validation()
+
 // Declare a function that lets you choose which door to open of 3 doors (like the TV game show). Behind one of the doors is a goat, behind another 
 // 		is a Jeep, and behind another is a can of worms. Alert the user which prize they got when a door number is passed in.
 
 
+
+function bigWinner(door) {
+	
+	if (parseInt(door) === 1) {
+		alert('WINNER WINNER GOAT DINNER! YOU JUST WON A GOAT PIE! To claim please visit www.definatelynotascam.com and give us your social security number.');
+	} else if (parseInt(door) === 2) {
+		alert('YOU JUST WON A BROKEN DOWN JEEP!!!! OMG JEALOUS!');
+	} else if (parseInt(door) === 3) {
+		alert('You just won a can of worms... for you ALL EXPENSE PAID FISHING TRIP TO HAWAII!!!! also your wife is cheating on you. YOU ALSO GET TO STAY AT A 5 STAR HOTEL!!!!!');
+	}
+}
+
+var door = prompt('YOU ARE BIG WINNER!! There are three doors! 1, 2, or 3. Behind each door is a prize! Which one do you choose?');
+bigWinner(door);
 
 

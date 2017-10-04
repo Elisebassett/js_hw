@@ -1,7 +1,7 @@
 //Create a script with two variables, each assigned to a number. Add them together and output the result to the console. Now do the same with two strings (concatenation).
-var dog = "3"
-var 
-
+var cat = 3;
+var dog = 4;
+console.log(cat + dog);
 
 
 // Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
